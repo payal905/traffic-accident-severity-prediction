@@ -75,10 +75,20 @@ We evaluated models using:
 
 ## 📉 Visualizations
 
-* Severity Distribution Graph
-* Confusion Matrix
-* Model Comparison Graphs (Accuracy, Precision, Recall, F1 Score)
+### Severity Distribution
+![Severity](images/severity_distribution.png)
 
+### Model Comparison
+![Comparison](images/acuracy_comparison.png)
+
+### Model Comparison
+![Comparison](images/model_comparison.png)
+
+### Decision Tree Confusion Matrix
+![DT](images/confusion_dt.png)
+
+### Logistic Regression Confusion Matrix
+![LR](images/confusion_lr.png)
 ---
 
 ## 🔍 Feature Importance (Decision Tree)

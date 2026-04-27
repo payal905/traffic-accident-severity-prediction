@@ -31,6 +31,7 @@ sns.countplot(x='Accident_Severity', data=df)
 plt.title("Accident Severity Distribution")
 plt.xlabel("Severity Class")
 plt.ylabel("Count")
+plt.savefig("images/severity_distribution.png")
 plt.show()
 
 #--------------------------
@@ -209,7 +210,7 @@ for bar in bars:
     )
 
 plt.ylim(0, 1)   # keeps scale clean
-
+plt.savefig("images/acuracy_comparison.png")
 plt.show()
 
 
@@ -282,7 +283,7 @@ def add_labels(bars):
 add_labels(bars1)
 add_labels(bars2)
 add_labels(bars3)
-
+plt.savefig("images/model_comparison.png")
 plt.show()
 
 # -----------------------------
@@ -301,6 +302,7 @@ sns.heatmap(cm_dt, annot=True, fmt='d')
 plt.title("Decision Tree Confusion Matrix")
 plt.xlabel("Predicted")
 plt.ylabel("Actual")
+plt.savefig("images/confusion_dt.png")
 plt.show()
 
 # Logistic Regression Confusion Matrix
@@ -311,6 +313,7 @@ sns.heatmap(cm_log, annot=True, fmt='d')
 plt.title("Logistic Regression Confusion Matrix")
 plt.xlabel("Predicted")
 plt.ylabel("Actual")
+plt.savefig("images/confusion_lr.png")
 plt.show()
 
 
